@@ -71,6 +71,6 @@ function linea(xInicio, yInicio,xFin, yFin) {
 }
 if(screen.width<992){
     canvas.width=screen.width-100;
-    canvas.height=screen.height-200;
+    canvas.height=screen.height/2;
     document.body.style.overflow="hidden"
 }
